@@ -4,7 +4,8 @@
   "description": "La base Sirene est la principale source exhaustive sur l'ensemble des entreprises et des établissements actifs de France. Elle est maintenant disponible en open data à [cette adresse.](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/).",
   "main": "pdf2json.js",
   "scripts": {
-    "build": "eslint ."
+    "build": "eslint . && node pdf2json.js",
+    "prepublish": "npm run build"
   },
   "author": "Koumoul",
   "license": "ISC",

@@ -13,3 +13,9 @@ Si vous voulez regénérer les métadonnées, il vous faut NodeJS >= 6 et exécu
 npm install
 node pdf2json.js
 ```
+
+## Intégrer dans un projet
+
+```
+npm install sirene-metadata
+```
