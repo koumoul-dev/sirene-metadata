@@ -196,6 +196,12 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "B bis T ter Q quater C quinquies On peut avoir aussi exceptionnellement des répétitions séquentielles A, B, C, D,.....",
+    "valeursPossibles": {
+      "B": "bis",
+      "T": "ter",
+      "Q": "quater",
+      "C": "quinquies"
+    },
     "id": "INDREP"
   },
   {
@@ -208,6 +214,50 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "Le lexique des abréviations autorisées est celui de la norme fonctionnelle d'échanges d'informations et reprend en majorité celui de la norme AFNOR Z 10-011. \" \" Sans objet ou autre ALL Allée AV Avenue BD Boulevard CAR Carrefour CHE Chemin CHS Chaussée CITE Cité COR Corniche CRS Cours DOM Domaine DSC Descente ECA Ecart ESP Esplanade FG Faubourg GR Grande Rue HAM Hameau HLE Halle IMP Impasse LD Lieu-dit LOT Lotissement MAR Marché MTE Montée PAS Passage PL Place PLN Plaine PLT Plateau PRO Promenade PRV Parvis QUA Quartier QUAI Quai RES Résidence RLE Ruelle ROC Rocade RPT Rond-point RTE Route RUE Rue SEN Sente - Sentier SQ Square TPL Terre-plein TRA Traverse VLA Villa VLGE Village",
+    "valeursPossibles": {
+      "ALL": "Allée",
+      "AV": "Avenue",
+      "BD": "Boulevard",
+      "CAR": "Carrefour",
+      "CHE": "Chemin",
+      "CHS": "Chaussée",
+      "CITE": "Cité",
+      "COR": "Corniche",
+      "CRS": "Cours",
+      "DOM": "Domaine",
+      "DSC": "Descente",
+      "ECA": "Ecart",
+      "ESP": "Esplanade",
+      "FG": "Faubourg",
+      "GR": "Grande Rue",
+      "HAM": "Hameau",
+      "HLE": "Halle",
+      "IMP": "Impasse",
+      "LD": "Lieu-dit",
+      "LOT": "Lotissement",
+      "MAR": "Marché",
+      "MTE": "Montée",
+      "PAS": "Passage",
+      "PL": "Place",
+      "PLN": "Plaine",
+      "PLT": "Plateau",
+      "PRO": "Promenade",
+      "PRV": "Parvis",
+      "QUA": "Quartier",
+      "QUAI": "Quai",
+      "RES": "Résidence",
+      "RLE": "Ruelle",
+      "ROC": "Rocade",
+      "RPT": "Rond-point",
+      "RTE": "Route",
+      "RUE": "Rue",
+      "SEN": "Sente - Sentier",
+      "SQ": "Square",
+      "TPL": "Terre-plein",
+      "TRA": "Traverse",
+      "VLA": "Villa",
+      "VLGE": "Village"
+    },
     "id": "TYPVOIE"
   },
   {
@@ -345,6 +395,17 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "0 Établissement localisé en commune rurale 1 Unité urbaine de moins de 5 000 habitants 2 Unité urbaine de 5 000 à 9 999 habitants 3 Unité urbaine de 10 000 à 19 999 habitants 4 Unité urbaine de 20 000 à 49 999 habitants 5 Unité urbaine de 50 000 à 99 999 habitants 6 Unité urbaine de 100 000 à 199 999 habitants 7 Unité urbaine de 200 000 à 1 999 999 habitants 8 Agglomération de Paris",
+    "valeursPossibles": {
+      "0": "Établissement localisé en commune rurale",
+      "1": "Unité urbaine de moins de 5 000 habitants",
+      "2": "Unité urbaine de 5 000 à 9 999 habitants",
+      "3": "Unité urbaine de 10 000 à 19 999 habitants",
+      "4": "Unité urbaine de 20 000 à 49 999 habitants",
+      "5": "Unité urbaine de 50 000 à 99 999 habitants",
+      "6": "Unité urbaine de 100 000 à 199 999 habitants",
+      "7": "Unité urbaine de 200 000 à 1 999 999 habitants",
+      "8": "Agglomération de Paris"
+    },
     "id": "TU"
   },
   {
@@ -380,6 +441,40 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "01 Communes de moins de 50 habitants 02 Communes de 50 à 99 habitants 03 Communes de 100 à 149 habitants 04 Communes de 150 à 199 habitants 05 Communes de 200 à 249 habitants 06 Communes de 250 à 299 habitants 07 Communes de 300 à 399 habitants 08 Communes de 400 à 499 habitants 11 Communes de 500 à 699 habitants 12 Communes de 700 à 999 habitants 13 Communes de 1000 à 1 499 habitants 14 Communes de 1500 à 1 999 habitants 15 Communes de 2000 à 2 499 habitants 16 Communes de 2500 à 2 999 habitants 17 Communes de 3000 à 3 999 habitants 18 Communes de 4000 à 4 999 habitants 21 Communes de 5000 à 6 999 habitants 22 Communes de 7 000 à 9 999 habitants 31 Communes de 10 000 à 14 999 habitants 32 Communes de 15 000 à 19 999 habitants 41 Communes de 20 000 à 24 999 habitants 42 Communes de 25 000 à 29 999 habitants 43 Communes de 30 000 à 39 999 habitants 44 Communes de 40 000 à 49 999 habitants 51 Communes de 50 000 à 69 999 habitants 52 Communes de 70 000 à 99 999 habitants 61 Communes de 100 000 à 149 999 habitants 62 Communes de 150 000 à 199 999 habitants 71 Communes de 200 000 à 299 999 habitants 72 Communes de 300 000 à 499 999 habitants 73 Communes de 500 000 à 1 499 999 habitants 80 Communes de 1 500 000 habitants ou +",
+    "valeursPossibles": {
+      "11": "Communes de 500 à 699 habitants",
+      "12": "Communes de 700 à 999 habitants",
+      "13": "Communes de 1000 à 1 499 habitants",
+      "14": "Communes de 1500 à 1 999 habitants",
+      "15": "Communes de 2000 à 2 499 habitants",
+      "16": "Communes de 2500 à 2 999 habitants",
+      "17": "Communes de 3000 à 3 999 habitants",
+      "18": "Communes de 4000 à 4 999 habitants",
+      "21": "Communes de 5000 à 6 999 habitants",
+      "22": "Communes de 7 000 à 9 999 habitants",
+      "31": "Communes de 10 000 à 14 999 habitants",
+      "32": "Communes de 15 000 à 19 999 habitants",
+      "41": "Communes de 20 000 à 24 999 habitants",
+      "42": "Communes de 25 000 à 29 999 habitants",
+      "43": "Communes de 30 000 à 39 999 habitants",
+      "44": "Communes de 40 000 à 49 999 habitants",
+      "51": "Communes de 50 000 à 69 999 habitants",
+      "52": "Communes de 70 000 à 99 999 habitants",
+      "61": "Communes de 100 000 à 149 999 habitants",
+      "62": "Communes de 150 000 à 199 999 habitants",
+      "71": "Communes de 200 000 à 299 999 habitants",
+      "72": "Communes de 300 000 à 499 999 habitants",
+      "73": "Communes de 500 000 à 1 499 999 habitants",
+      "80": "Communes de 1 500 000 habitants ou +",
+      "01": "Communes de moins de 50 habitants",
+      "02": "Communes de 50 à 99 habitants",
+      "03": "Communes de 100 à 149 habitants",
+      "04": "Communes de 150 à 199 habitants",
+      "05": "Communes de 200 à 249 habitants",
+      "06": "Communes de 250 à 299 habitants",
+      "07": "Communes de 300 à 399 habitants",
+      "08": "Communes de 400 à 499 habitants"
+    },
     "id": "TCD"
   },
   {
@@ -404,6 +499,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "1 Etablissement siège 0 Etablissement non siège",
+    "valeursPossibles": {
+      "0": "Etablissement non siège",
+      "1": "Etablissement siège"
+    },
     "id": "SIEGE"
   },
   {
@@ -426,6 +525,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "0 établissement ne faisant pas partie du champ du publipostage 1 établissement faisant partie du champ du publipostage",
+    "valeursPossibles": {
+      "0": "établissement ne faisant pas partie du champ du publipostage",
+      "1": "établissement faisant partie du champ du publipostage"
+    },
     "id": "IND_PUBLIPO"
   },
   {
@@ -438,6 +541,10 @@
     "Renseignement": "Variable renseignée en totalité.",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "O Établissement diffusable N Personne physique ayant demandé à être exclue de la diffusion. Cette modalité n'est visible que pour les organismes habilités au titre de l'article R. 123-224 ou les administrations.",
+    "valeursPossibles": {
+      "O": "Établissement diffusable",
+      "N": "Personne physique ayant demandé à être exclue de la diffusion. Cette modalité n'est visible que pour les organismes habilités au titre de l'article R. 123-224 ou les administrations."
+    },
     "id": "DIFFCOM"
   },
   {
@@ -462,6 +569,14 @@
     "Renseignement": "Il s'agit d'une variable calculée par l'Insee, sans valeur juridique.",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "Personne morale 1 Artisan-commerçant 2 Commerçant 3 Artisan 5 Profession libérale 6 Exploitant agricole 9 Autre entrepreneur individuel",
+    "valeursPossibles": {
+      "1": "Artisan-commerçant",
+      "2": "Commerçant",
+      "3": "Artisan",
+      "5": "Profession libérale",
+      "6": "Exploitant agricole",
+      "9": "Autre entrepreneur individuel"
+    },
     "id": "NATETAB"
   },
   {
@@ -520,6 +635,24 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "NN Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12) ou unités sans mise à jour d'effectif 00 0 salarié (unités ayant eu des salariés au cours de l'année de référence mais plus d'effectif au 31/12) 01 1 ou 2 salariés 02 3 à 5 salariés 03 6 à 9 salariés 11 10 à 19 salariés 12 20 à 49 salariés 21 50 à 99 salariés 22 100 à 199 salariés 31 200 à 249 salariés 32 250 à 499 salariés 41 500 à 999 salariés 42 1 000 à 1 999 salariés 51 2 000 à 4 999 salariés 52 5 000 à 9 999 salariés 53 10 000 salariés et plus",
+    "valeursPossibles": {
+      "11": "10 à 19 salariés",
+      "12": "20 à 49 salariés",
+      "21": "50 à 99 salariés",
+      "22": "100 à 199 salariés",
+      "31": "200 à 249 salariés",
+      "32": "250 à 499 salariés",
+      "41": "500 à 999 salariés",
+      "42": "1 000 à 1 999 salariés",
+      "51": "2 000 à 4 999 salariés",
+      "52": "5 000 à 9 999 salariés",
+      "53": "10 000 salariés et plus",
+      "NN": "Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12) ou unités sans mise à jour d'effectif",
+      "00": "0 salarié (unités ayant eu des salariés au cours de l'année de référence mais plus d'effectif au 31/12)",
+      "01": "1 ou 2 salariés",
+      "02": "3 à 5 salariés",
+      "03": "6 à 9 salariés"
+    },
     "id": "TEFET"
   },
   {
@@ -566,6 +699,22 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Sans objet 1 Création (pour tout type de déclaration) 3 Achat (pour les déclarations non agricoles) 4 Apport (pour les déclarations non agricoles) 6 Prise en location gérance (pour les déclarations non agricoles) 7 Partage (pour les déclarations non agricoles) 8 Reprise (pour les déclarations non agricoles) 9 Autre (pour les déclarations non agricoles) A Reprise globale d'une exploitation (pour les déclarations agricoles) B Poursuite de l'exploitation par le conjoint (pour les déclarations agricoles) C Transfert de propriété (pour les déclarations agricoles) D Apport d'exploitation(s) individuelle(s) (pour les déclarations agricoles) E Reprise totale ou partielle d'exploitation individuelle (déclarations agricoles) F Gérance - mandat NR Non renseigné La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable. La modalité \"NR\" est utilisée quand l'unité déclarante n'a rempli aucune des modalités présentes. Remarque : on peut encore trouver des modalités 2 (transfert d'activité) et 5 (reprise) pour cette variable. Ces modalités sont issues d'une ancienne version de la norme inter-administrative d'échanges entre l'INSEE et ses partenaires. Toutes les administrations n'étant pas passées à la version actuelle et s'agissant de modalités déclaratives, elles ne peuvent être modifiées au répertoire SIRENE.",
+    "valeursPossibles": {
+      "1": "Création (pour tout type de déclaration)",
+      "3": "Achat (pour les déclarations non agricoles)",
+      "4": "Apport (pour les déclarations non agricoles)",
+      "6": "Prise en location gérance (pour les déclarations non agricoles)",
+      "7": "Partage (pour les déclarations non agricoles)",
+      "8": "Reprise (pour les déclarations non agricoles)",
+      "9": "Autre (pour les déclarations non agricoles)",
+      "A": "Reprise globale d'une exploitation (pour les déclarations agricoles)",
+      "B": "Poursuite de l'exploitation par le conjoint (pour les déclarations agricoles)",
+      "C": "Transfert de propriété (pour les déclarations agricoles)",
+      "D": "Apport d'exploitation(s) individuelle(s) (pour les déclarations agricoles)",
+      "E": "Reprise totale ou partielle d'exploitation individuelle (déclarations agricoles)",
+      "F": "Gérance - mandat",
+      "NR": "Non renseigné"
+    },
     "id": "ORIGINE"
   },
   {
@@ -599,6 +748,24 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Sans objet 03 Extraction 04 Fabrication, production 05 Montage, installation 06 Réparation 07 Transport 08 Import, export 09 Commerce de gros ou intermédiaire du commerce 10 Commerce de détail 11 Profession libérale 12 Services 13 Location de meublés 14 Bâtiments, travaux publics 15 Services aux entreprises 20 Donneur d'ordre 99 Autre NR Non renseigné La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable. La modalité \"NR\" est utilisée quand l'unité déclarante n'a rempli aucune des modalités présentes. Remarque : on peut encore trouver des modalités 01 (travaux de bâtiment) et 02 (travaux publics) pour cette variable. Ces modalités sont issues d'une ancienne version de la norme inter-administrative d'échanges entre l'INSEE et ses partenaires. Toutes les administrations n'étant pas passées à la version actuelle et s'agissant de modalités déclaratives, elles ne peuvent être modifiéesau répertoire SIRENE.",
+    "valeursPossibles": {
+      "10": "Commerce de détail",
+      "11": "Profession libérale",
+      "12": "Services",
+      "13": "Location de meublés",
+      "14": "Bâtiments, travaux publics",
+      "15": "Services aux entreprises",
+      "20": "Donneur d'ordre",
+      "99": "Autre",
+      "03": "Extraction",
+      "04": "Fabrication, production",
+      "05": "Montage, installation",
+      "06": "Réparation",
+      "07": "Transport",
+      "08": "Import, export",
+      "09": "Commerce de gros ou intermédiaire du commerce",
+      "NR": "Non renseigné"
+    },
     "id": "ACTIVNAT"
   },
   {
@@ -610,6 +777,19 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Sans objet 02 Mine, carrière 04 Dépôt, entrepôt 05 Magasin 07 Bureau, cabinet 08 Usine 09 Atelier 91 Sur chantier 92 Sur marché 93 En clientèle 99 Autre NR Non renseigné La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable. La modalité 99 est renseignée quand l'unité déclarante ne peut remplir la rubrique des autres modalités. Exemple : pour la variable ACTIVNAT, 99 est renseigné si l'unité n'a aucune activité d'extraction de fabrication, etc. La modalité \"NR\" est utilisée quand l'unité déclarante n'a rempli aucune des modalités présentes. Remarque : on peut encore trouver des modalités 01 (exploitation agricole) et 03 (usine, atelier) pourcette variable. Ces modalités sont issues d'une ancienne version de la norme inter-administrative d'échanges entre l'INSEE et ses partenaires. Toutes les administrations n'étant pas passées à la version actuelle et s'agissant de modalités déclaratives, elles ne peuvent être modifiées au répertoire SIRENE.",
+    "valeursPossibles": {
+      "91": "Sur chantier",
+      "92": "Sur marché",
+      "93": "En clientèle",
+      "99": "Autre",
+      "02": "Mine, carrière",
+      "04": "Dépôt, entrepôt",
+      "05": "Magasin",
+      "07": "Bureau, cabinet",
+      "08": "Usine",
+      "09": "Atelier",
+      "NR": "Non renseigné"
+    },
     "id": "LIEUACT"
   },
   {
@@ -622,6 +802,12 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Sans objet 1 Moins de 300 m² 2 De 300 m² à moins de 400 m² 3 De 400 m² à moins de 2 500 m² 4 2 500 m² ou plus La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable.",
+    "valeursPossibles": {
+      "1": "Moins de 300 m²",
+      "2": "De 300 m² à moins de 400 m²",
+      "3": "De 400 m² à moins de 2 500 m²",
+      "4": "2 500 m² ou plus"
+    },
     "id": "ACTISURF"
   },
   {
@@ -634,6 +820,11 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "P Permanente S Saisonnière NR Non renseigné La modalité \"NR\" est utilisée quand l'unité déclarante n'a rempli aucune des modalités présentes.",
+    "valeursPossibles": {
+      "P": "Permanente",
+      "S": "Saisonnière",
+      "NR": "Non renseigné"
+    },
     "id": "SAISONAT"
   },
   {
@@ -646,6 +837,12 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "D Donneur d'ordre M Montage, installation R Réparation S Activité simple",
+    "valeursPossibles": {
+      "D": "Donneur d'ordre",
+      "M": "Montage, installation",
+      "R": "Réparation",
+      "S": "Activité simple"
+    },
     "id": "MODET"
   },
   {
@@ -658,6 +855,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "O Productif N Non productif",
+    "valeursPossibles": {
+      "O": "Productif",
+      "N": "Non productif"
+    },
     "id": "PRODET"
   },
   {
@@ -670,6 +871,11 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "\"\" Sans objet 1 Locataire d'un fond de commerce 2 Loueur d'un fond de commerce 3 Prestataire de personnel La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable.",
+    "valeursPossibles": {
+      "1": "Locataire d'un fond de commerce",
+      "2": "Loueur d'un fond de commerce",
+      "3": "Prestataire de personnel"
+    },
     "id": "PRODPART"
   },
   {
@@ -682,6 +888,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "1 Auxiliaire 0 Non auxiliaire",
+    "valeursPossibles": {
+      "0": "Non auxiliaire",
+      "1": "Auxiliaire"
+    },
     "id": "AUXILT"
   },
   {
@@ -735,6 +945,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Sans objet 1 Monsieur 2 Madame La modalité \"sans objet\" est utilisée lorsque l'unité déclarante n'est pas concernée par cette variable.",
+    "valeursPossibles": {
+      "1": "Monsieur",
+      "2": "Madame"
+    },
     "id": "CIVILITE"
   },
   {
@@ -768,6 +982,30 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "01 Guadeloupe 02 Martinique 03 Guyane 04 Réunion 06 Mayotte 07 Saint-Barthélémy 08 Saint-Martin 11 Ile-de-France (75, 77, 78, 91, 92, 93, 94, 95) 24 Centre-Val de Loire (18, 28, 36, 37, 41, 45) 27 Bourgogne-Franche-Comté (21, 25, 39, 58, 70, 71, 89, 90) 28 Normandie (14, 27, 50, 61, 76) 32 Nord-Pas-de-Calais-Picardie (02, 59, 60, 62, 80)44 Alsace-Champagne-Ardenne-Lorraine (08, 10, 51, 52, 54, 55, 57, 67, 68, 88) 52 Pays de La Loire (44, 49, 53, 72, 85) 53 Bretagne (22, 29, 35, 56) 75 Aquitaine-Limousin-Poitou-Charentes (16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87) 76 Languedoc-Roussillon-Midi-Pyrénées (09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82) 84 Auvergne-Rhône-Alpes (01, 03, 07, 15, 26, 38, 42, 43, 63, 69, 73, 74) 93 Provence-Alpes-Côte d'Azur (04, 05, 06, 13, 83, 84) 94 Corse (2A, 2B) 98 Territoires d'outre-mer (TOM yc St-Pierre-et-Miquelon) 99 Etranger",
+    "valeursPossibles": {
+      "11": "Ile-de-France (75, 77, 78, 91, 92, 93, 94, 95)",
+      "24": "Centre-Val de Loire (18, 28, 36, 37, 41, 45)",
+      "27": "Bourgogne-Franche-Comté (21, 25, 39, 58, 70, 71, 89, 90)",
+      "28": "Normandie (14, 27, 50, 61, 76)",
+      "32": "Nord-Pas-de-Calais-Picardie (02, 59, 60, 62, 80)",
+      "44": "Alsace-Champagne-Ardenne-Lorraine (08, 10, 51, 52, 54, 55, 57, 67, 68, 88)",
+      "52": "Pays de La Loire (44, 49, 53, 72, 85)",
+      "53": "Bretagne (22, 29, 35, 56)",
+      "75": "Aquitaine-Limousin-Poitou-Charentes (16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87)",
+      "76": "Languedoc-Roussillon-Midi-Pyrénées (09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82)",
+      "84": "Auvergne-Rhône-Alpes (01, 03, 07, 15, 26, 38, 42, 43, 63, 69, 73, 74)",
+      "93": "Provence-Alpes-Côte d'Azur (04, 05, 06, 13, 83, 84)",
+      "94": "Corse (2A, 2B)",
+      "98": "Territoires d'outre-mer (TOM yc St-Pierre-et-Miquelon)",
+      "99": "Etranger",
+      "01": "Guadeloupe",
+      "02": "Martinique",
+      "03": "Guyane",
+      "04": "Réunion",
+      "06": "Mayotte",
+      "07": "Saint-Barthélémy",
+      "08": "Saint-Martin"
+    },
     "id": "RPEN"
   },
   {
@@ -873,6 +1111,11 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Entreprise non concernée O L’entreprise appartient au champ de l’économie sociale et solidaire N L’entreprise n’appartient pas au champ de l’ESS I Appartenance invalidée par les greffes",
+    "valeursPossibles": {
+      "O": "L’entreprise appartient au champ de l’économie sociale et solidaire",
+      "N": "L’entreprise n’appartient pas au champ de l’ESS",
+      "I": "Appartenance invalidée par les greffes"
+    },
     "id": "ESS"
   },
   {
@@ -896,6 +1139,24 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "NN Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12). Cette tranche peut contenir quelques effectifs inconnus 00 0 salarié (n'ayant pas d'effectif au 31/12 mais ayant employé des salariés au cours de l'année de référence) 01 1 ou 2 salariés 02 3 à 5 salariés 03 6 à 9 salariés 11 10 à 19 salariés 12 20 à 49 salariés 21 50 à 99 salariés 22 100 à 199 salariés 31 200 à 249 salariés 32 250 à 499 salariés 41 500 à 999 salariés 42 1 000 à 1 999 salariés 51 2 000 à 4 999 salariés 52 5 000 à 9 999 salariés 53 10 000 salariés et plus",
+    "valeursPossibles": {
+      "11": "10 à 19 salariés",
+      "12": "20 à 49 salariés",
+      "21": "50 à 99 salariés",
+      "22": "100 à 199 salariés",
+      "31": "200 à 249 salariés",
+      "32": "250 à 499 salariés",
+      "41": "500 à 999 salariés",
+      "42": "1 000 à 1 999 salariés",
+      "51": "2 000 à 4 999 salariés",
+      "52": "5 000 à 9 999 salariés",
+      "53": "10 000 salariés et plus",
+      "NN": "Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12). Cette tranche peut contenir quelques effectifs inconnus",
+      "00": "0 salarié (n'ayant pas d'effectif au 31/12 mais ayant employé des salariés au cours de l'année de référence)",
+      "01": "1 ou 2 salariés",
+      "02": "3 à 5 salariés",
+      "03": "6 à 9 salariés"
+    },
     "id": "TEFEN"
   },
   {
@@ -920,6 +1181,18 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "NN Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12. Cette tranche peut contenir quelques effectifs inconnus 0 0 salarié (n'ayant pas d'effectifs au 31/12 mais ayant employé des salariés au cours de l'année de référence) 1 1 à 2 salariés 3 3 à 5 salariés 6 6 à 9 salariés 10 10 à 19 salariés 20 20 à 49 salariés 50 50 à 99 salariés 100 100 à 199 salariés 200 200 à 299 salariés .../... de 100 en 100 jusqu'à 999 999 salariés",
+    "valeursPossibles": {
+      "0": "0 salarié (n'ayant pas d'effectifs au 31/12 mais ayant employé des salariés au cours de l'année de référence)",
+      "1": "1 à 2 salariés",
+      "3": "3 à 5 salariés",
+      "6": "6 à 9 salariés",
+      "10": "10 à 19 salariés",
+      "20": "20 à 49 salariés",
+      "50": "50 à 99 salariés",
+      "100": "100 à 199 salariés",
+      "200": "200 à 299 salariés .../... de 100 en 100 jusqu'à 999 999 salariés",
+      "NN": "Unités non employeuses (pas de salarié au cours de l'année de référence et pas d'effectif au 31/12. Cette tranche peut contenir quelques effectifs inconnus"
+    },
     "id": "EFENCENT"
   },
   {
@@ -975,6 +1248,15 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "\"\" Non calculé 1 Entreprise dont tous les établissements ont la même activité principale 2 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 80 à 99% des effectifs 3 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 50 à 80% des effectifs 4 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, aucune ne regroupant plus de 50% des effectifs 5 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant plus de 80% des établissements 6 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 50 à 80% des établissements 7 Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, aucune ne regroupant plus de 50% des établissements",
+    "valeursPossibles": {
+      "1": "Entreprise dont tous les établissements ont la même activité principale",
+      "2": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 80 à 99% des effectifs",
+      "3": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 50 à 80% des effectifs",
+      "4": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, aucune ne regroupant plus de 50% des effectifs",
+      "5": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant plus de 80% des établissements",
+      "6": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, l'une de ces activités regroupant de 50 à 80% des établissements",
+      "7": "Entreprise à établissements multiples dont les activités principales se répartissent dans plusieurs divisions de la NAF, aucune ne regroupant plus de 50% des établissements"
+    },
     "id": "MONOACT"
   },
   {
@@ -987,6 +1269,12 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "D Donneur d'ordre M Montage, installation R Réparation S Activité simple",
+    "valeursPossibles": {
+      "D": "Donneur d'ordre",
+      "M": "Montage, installation",
+      "R": "Réparation",
+      "S": "Activité simple"
+    },
     "id": "MODEN"
   },
   {
@@ -999,6 +1287,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "O Productif N Non productif",
+    "valeursPossibles": {
+      "O": "Productif",
+      "N": "Non productif"
+    },
     "id": "PRODEN"
   },
   {
@@ -1022,6 +1314,18 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "L'Insee n'a pas la maîtrise de la qualité de cette variable. Elle est soit non certifiée car déclarée par les entreprises et non contrôlée par l'Insee ; soit issue d'une source exogène au répertoire (enquête, source administrative, etc.).",
     "Liste des modalités": "\"\" Non renseignée 0 Moins de 0,5 million d'euros 1 De 0,5 à moins de 1 million d'euros 2 De 1 million à moins de 2 millions d'euros 3 De 2 millions à moins de 5 millions d'euros 4 De 5 millions à moins de 10 millions d' euros 5 De 10 millions à moins de 20 millions d'euros 6 De 20 millions à moins de 50 millions d'euros 7 De 50 millions à moins de 100 millions d'euros 8 De 100 millions à moins de 200 millions d'euros 9 200 millions d'euros ou plus La modalité \"non renseignée\" est utilisée quand l'unité déclarante n'a rempli aucune des modalités présentes.",
+    "valeursPossibles": {
+      "0": "Moins de 0,5 million d'euros",
+      "1": "De 0,5 à moins de 1 million d'euros",
+      "2": "De 1 million à moins de 2 millions d'euros",
+      "3": "De 2 millions à moins de 5 millions d'euros",
+      "4": "De 5 millions à moins de 10 millions d' euros",
+      "5": "De 10 millions à moins de 20 millions d'euros",
+      "6": "De 20 millions à moins de 50 millions d'euros",
+      "7": "De 50 millions à moins de 100 millions d'euros",
+      "8": "De 100 millions à moins de 200 millions d'euros",
+      "9": "200 millions d'euros ou plus"
+    },
     "id": "TCA"
   },
   {
@@ -1094,6 +1398,14 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "C Création d'établissement E Suppression d'établissement I Modification, état initial F Modification, état final D Entrée dans la diffusion O Sortie de la diffusion",
+    "valeursPossibles": {
+      "C": "Création d'établissement",
+      "E": "Suppression d'établissement",
+      "I": "Modification, état initial",
+      "F": "Modification, état final",
+      "D": "Entrée dans la diffusion",
+      "O": "Sortie de la diffusion"
+    },
     "id": "VMAJ"
   },
   {
@@ -1106,6 +1418,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "1 Modification 0 Pas de modification",
+    "valeursPossibles": {
+      "0": "Pas de modification",
+      "1": "Modification"
+    },
     "id": "VMAJ1"
   },
   {
@@ -1118,6 +1434,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "1 Modification 0 Pas de modification",
+    "valeursPossibles": {
+      "0": "Pas de modification",
+      "1": "Modification"
+    },
     "id": "VMAJ2"
   },
   {
@@ -1130,6 +1450,10 @@
     "Renseignement": "Variable renseignée en totalité ou partiellement .",
     "Qualité": "Il s'agit d'une variable calculée par l'Insee ou déclarée par les entreprises mais faisant l'objet de contrôle par l'Insee.",
     "Liste des modalités": "1 Modification 0 Pas de modification",
+    "valeursPossibles": {
+      "0": "Pas de modification",
+      "1": "Modification"
+    },
     "id": "VMAJ3"
   },
   {
